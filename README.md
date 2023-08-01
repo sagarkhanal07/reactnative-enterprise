@@ -23,3 +23,6 @@ Project Initiated with
 ```sh
 npx create-expo-app --template
 ```
+
+### Absolute Imports
+Clean code and code writing easier.
