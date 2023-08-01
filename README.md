@@ -1,4 +1,4 @@
-📚 Features
+📚 Features (TODO)
 
 - [ ] Expo - Built with Expo for cross-platform support
 - [ ] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
