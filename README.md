@@ -4,7 +4,7 @@
 - [X] 🎯 Absolute imports - For better imports and code organization
 - [X] 📝 Conventional commits git hook - For enforcing conventional commits
 - [ ] 🤖 Renovate BOT - For keeping dependencies up to date
-- [ ] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
+- [X] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
 - [ ] 🩹 Patch-package - For patching dependencies
 - [ ] 💻 T3 Env - For environment variables management
 - [ ] 📊 Bundle analyzer plugin - For analyzing bundle size
@@ -30,3 +30,7 @@ Preconfigured by default.
 
 ### Conventional Commits
 Configured with [git-conventioanl-commits](https://github.com/qoomon/git-conventional-commits)
+
+### TS-Reset | Extremely Strict Typescript
+TypeScript's built-in typings are not perfect. ts-reset makes them better.
+Configured with [ts-reset](https://github.com/total-typescript/ts-reset)
