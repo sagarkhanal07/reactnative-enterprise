@@ -2,7 +2,7 @@
 
 - [X] Expo - Built with Expo for cross-platform support
 - [X] 🎯 Absolute imports - For better imports and code organization
-- [ ] 📝 Conventional commits git hook - For enforcing conventional commits
+- [X] 📝 Conventional commits git hook - For enforcing conventional commits
 - [ ] 🤖 Renovate BOT - For keeping dependencies up to date
 - [ ] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
 - [ ] 🩹 Patch-package - For patching dependencies
@@ -27,3 +27,6 @@ npx create-expo-app --template
 ### Absolute Imports
 Clean code and code writing easier.
 Preconfigured by default.
+
+### Conventional Commits
+Configured with [git-conventioanl-commits](https://github.com/qoomon/git-conventional-commits)
