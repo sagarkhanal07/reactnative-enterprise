@@ -12,7 +12,7 @@
 - [ ] 📕 Storybook - For isolating and testing UI components
 - [ ] 📈 Components coupling and cohesion graph - For analyzing components relations
 - [ ] 🚀 GitHub Actions - For CI/CD automation
-- [ ] 🤖🧠 Automated ChatGPT Code Reviews - For improving code quality and AI assistance code reviews
+- [X] 🤖🧠 Automated ChatGPT Code Reviews - For improving code quality and AI assistance code reviews
 - [ ] 🚢 Semantic Release - For automated versioning and CHANGELOG generation
 
 
@@ -34,3 +34,6 @@ Configured with [git-conventioanl-commits](https://github.com/qoomon/git-convent
 ### TS-Reset | Extremely Strict Typescript
 TypeScript's built-in typings are not perfect. ts-reset makes them better.
 Configured with [ts-reset](https://github.com/total-typescript/ts-reset)
+
+### Automated ChatGPT Code Reviews
+Configured with [chatgpt-codereview](https://github.com/anc95/ChatGPT-CodeReview) action workflow.
