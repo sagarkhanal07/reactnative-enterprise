@@ -1,7 +1,7 @@
 📚 Features (TODO)
 
 - [X] Expo - Built with Expo for cross-platform support
-- [ ] 🎯 Absolute imports - For better imports and code organization
+- [X] 🎯 Absolute imports - For better imports and code organization
 - [ ] 📝 Conventional commits git hook - For enforcing conventional commits
 - [ ] 🤖 Renovate BOT - For keeping dependencies up to date
 - [ ] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
@@ -23,3 +23,7 @@ Project Initiated with
 ```sh
 npx create-expo-app --template
 ```
+
+### Absolute Imports
+Clean code and code writing easier.
+Preconfigured by default.
