@@ -1,4 +1,7 @@
-📚 Features (TODO)
+# 🚧 Work In Progress
+This project is highly inspired by [next-enterprise](https://github.com/Blazity/next-enterprise). But for Expo/React-Native.
+
+## 📚 Features (TODO)
 
 - [X] Expo - Built with Expo for cross-platform support
 - [X] 🎯 Absolute imports - For better imports and code organization
@@ -16,7 +19,7 @@
 - [ ] 🚢 Semantic Release - For automated versioning and CHANGELOG generation
 
 
-🚦 Roadmap
+## 🚦 Roadmap (Updated as implemented)
 
 ### Expo
 Project Initiated with
@@ -29,11 +32,10 @@ Clean code and code writing easier.
 Preconfigured by default.
 
 ### Conventional Commits
-Configured with [git-conventioanl-commits](https://github.com/qoomon/git-conventional-commits)
+Configured with [git-conventioanl-commits](https://github.com/qoomon/git-conventional-commits) to automatically validate commit messages following the [conventional-commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
 
 ### TS-Reset | Extremely Strict Typescript
-TypeScript's built-in typings are not perfect. ts-reset makes them better.
-Configured with [ts-reset](https://github.com/total-typescript/ts-reset)
+TypeScript's default type declarations may have imperfections, but [ts-reset](https://github.com/total-typescript/ts-reset) enhances them.
 
 ### Automated ChatGPT Code Reviews
 Configured with [chatgpt-codereview](https://github.com/anc95/ChatGPT-CodeReview) action workflow.
