@@ -21,7 +21,7 @@ jobs:
           LANGUAGE: Chinese
           OPENAI_API_ENDPOINT: ${{ secrets.OPENAI_ENDPOINT }}
           MODEL: gpt-3.5-turbo # https://platform.openai.com/docs/models
-          PROMPT: Please check if there are any confusions or irregularities in the following code diff
+          PROMPT: Please check the pull request and provide any suggestions to improve the code. Provide Feedback in English Language always. You can add emojis in feedback too.
           top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
           temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
           max_tokens: 10000
