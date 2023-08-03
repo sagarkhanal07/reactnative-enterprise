@@ -10,7 +10,7 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [X] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
 - [X] 🩹 Patch-package - For patching dependencies
 - [ ] 💻 T3 Env - For environment variables management
-- [ ] 📊 Bundle analyzer plugin - For analyzing bundle size
+- [X] 📊 Bundle analyzer plugin - For analyzing bundle size
 - [ ] 🧪 Jest and React Testing Library - For testing components and features
 - [ ] 📕 Storybook - For isolating and testing UI components
 - [ ] 📈 Components coupling and cohesion graph - For analyzing components relations
@@ -43,3 +43,7 @@ Configured with [chatgpt-codereview](https://github.com/anc95/ChatGPT-CodeReview
 ### Patch Package
 Configured with [patch-package](https://github.com/ds300/patch-package) to patch dependencies as needed.
 For eg: `npx patch-package package-name`
+
+### Bundle Analyzer
+Configured with [react-native-bundle-analyzer](https://github.com/IjzerenHein/react-native-bundle-visualizer)</br>
+Run `npm run analzye:bundle` which generates bundle map and show you what's inside of your react-native bundle
