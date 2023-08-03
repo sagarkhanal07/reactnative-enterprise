@@ -8,7 +8,7 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [X] 📝 Conventional commits git hook - For enforcing conventional commits
 - [ ] 🤖 Renovate BOT - For keeping dependencies up to date
 - [X] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
-- [ ] 🩹 Patch-package - For patching dependencies
+- [X] 🩹 Patch-package - For patching dependencies
 - [ ] 💻 T3 Env - For environment variables management
 - [ ] 📊 Bundle analyzer plugin - For analyzing bundle size
 - [ ] 🧪 Jest and React Testing Library - For testing components and features
@@ -39,3 +39,7 @@ TypeScript's default type declarations may have imperfections, but [ts-reset](ht
 
 ### Automated ChatGPT Code Reviews
 Configured with [chatgpt-codereview](https://github.com/anc95/ChatGPT-CodeReview) action workflow.
+
+### Patch Package
+Configured with [patch-package](https://github.com/ds300/patch-package) to patch dependencies as needed.
+For eg: `npx patch-package package-name`
