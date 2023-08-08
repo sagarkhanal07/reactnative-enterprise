@@ -33,3 +33,7 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# Misc Generated
+*.bundle
+*.bundle.map
