@@ -13,10 +13,11 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [X] 📊 Bundle analyzer plugin - For analyzing bundle size
 - [ ] 🧪 Jest and React Testing Library - For testing components and features
 - [ ] 📕 Storybook - For isolating and testing UI components
-- [ ] 📈 Components coupling and cohesion graph - For analyzing components relations
+- [X] 📈 Components coupling and cohesion graph - For analyzing components relations
 - [ ] 🚀 GitHub Actions - For CI/CD automation
 - [X] 🤖🧠 Automated ChatGPT Code Reviews - For improving code quality and AI assistance code reviews
 - [ ] 🚢 Semantic Release - For automated versioning and CHANGELOG generation
+- [ ] 🗄️ Auto Sort Imports - Automatic organizing of imports on file saves.
 
 
 ## 🚦 Roadmap (Updated as implemented)
@@ -47,3 +48,7 @@ For eg: `npx patch-package package-name`
 ### Bundle Analyzer
 Configured with [react-native-bundle-analyzer](https://github.com/IjzerenHein/react-native-bundle-visualizer)</br>
 Run `npm run analzye:bundle` which generates bundle map and show you what's inside of your react-native bundle
+
+### Coupling Graph
+Configured with [skott](https://github.com/antoine-coulon/skott)</br>
+Run `npm run coupling-graph` to get graph of your components and how they are coupled. This helps identify components that are too tightly coupled and should be refactored.
