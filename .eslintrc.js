@@ -5,11 +5,12 @@ module.exports = {
     'simple-import-sort/imports': [
       'error',
       {
-        groups: [['^expo', '^react'], ['^@?\\w'], ['@/(.*)'], ['^[./]']],
+        groups: [['^expo', '^react'], ['^@?\\w'], ['@/(.*)'], ['^[./]']], // sort order for imports
       },
     ],
-    'import/newline-after-import': ['error', { count: 1 }],
+    'import/newline-after-import': ['error', { count: 1 }], // new line after all the imports
     'padding-line-between-statements': [
+      // blank line between statements
       'error',
       { blankLine: 'always', prev: ['export', 'function'], next: '*' },
       { blankLine: 'always', prev: '*', next: ['export', 'function'] },

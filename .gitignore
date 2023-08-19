@@ -37,4 +37,6 @@ yarn-error.*
 # Misc Generated
 *.bundle
 *.bundle.map
+
+# Ignored cache
 .eslintcache
