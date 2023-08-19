@@ -7,7 +7,7 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [x] Expo - Built with Expo for cross-platform support
 - [x] 🎯 Absolute imports - For better imports and code organization
 - [x] 📝 Conventional commits git hook - For enforcing conventional commits
-- [ ] 🤖 Renovate BOT - For keeping dependencies up to date
+- [x] 🤖 Renovate BOT - For keeping dependencies up to date
 - [x] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
 - [x] 🩹 Patch-package - For patching dependencies
 - [ ] 💻 T3 Env - For environment variables management
@@ -71,3 +71,7 @@ Automatically organize imports on file saves. Be sure to enable on your user set
     "source.fixAll.eslint": true
 },
 ```
+
+### Renovate Bot
+
+Configured with [renovate-bot](https://github.com/renovatebot/renovate) to keep dependencies up to date.
