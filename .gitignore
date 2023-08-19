@@ -40,3 +40,6 @@ yarn-error.*
 
 # Ignored cache
 .eslintcache
+
+# Sensitive files
+.env

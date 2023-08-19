@@ -10,7 +10,7 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [x] 🤖 Renovate BOT - For keeping dependencies up to date
 - [x] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
 - [x] 🩹 Patch-package - For patching dependencies
-- [ ] 💻 T3 Env - For environment variables management
+- [x] 💻 T3 Env - For environment variables management
 - [x] 📊 Bundle analyzer plugin - For analyzing bundle size
 - [ ] 🧪 Jest and React Testing Library - For testing components and features
 - [ ] 📕 Storybook - For isolating and testing UI components
@@ -75,3 +75,8 @@ Automatically organize imports on file saves. Be sure to enable on your user set
 ### Renovate Bot
 
 Configured with [renovate-bot](https://github.com/renovatebot/renovate) to keep dependencies up to date.
+
+### T3 Env
+
+Configured with [t3-oss/env-core](https://github.com/t3-oss/t3-env).
+Typesafe environment variables management integrated along with [zod](https://github.com/colinhacks/zod).
