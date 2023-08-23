@@ -11,8 +11,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
-    "analyze:bundle": "react-native-bundle-visualizer --only-mapped --entry-file ./App.tsx --bundle-output ./rn.bundle --expo",
-    "coupling-graph": "npx skott App.tsx",
+    "analyze:bundle": "react-native-bundle-visualizer --only-mapped --entry-file ./index.js --bundle-output ./rn.bundle --expo",
+    "coupling-graph": "npx skott index.js",
     "prepare": "husky install",
     "storybook-generate": "sb-rn-get-stories",
     "storybook-watch": "sb-rn-watcher"
