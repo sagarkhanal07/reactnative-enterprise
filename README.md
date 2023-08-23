@@ -13,7 +13,7 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [x] 💻 T3 Env - For environment variables management
 - [x] 📊 Bundle analyzer plugin - For analyzing bundle size
 - [ ] 🧪 Jest and React Testing Library - For testing components and features
-- [ ] 📕 Storybook - For isolating and testing UI components
+- [x] 📕 Storybook - For isolating and testing UI components
 - [x] 📈 Components coupling and cohesion graph - For analyzing components relations
 - [ ] 🚀 GitHub Actions - For CI/CD automation
 - [x] 🤖🧠 Automated ChatGPT Code Reviews - For improving code quality and AI assistance code reviews
@@ -80,3 +80,7 @@ Configured with [renovate-bot](https://github.com/renovatebot/renovate) to keep 
 
 Configured with [t3-oss/env-core](https://github.com/t3-oss/t3-env).
 Typesafe environment variables management integrated along with [zod](https://github.com/colinhacks/zod).
+
+### Storybook
+
+Configured with [storybook-react-native](https://github.com/storybookjs/react-native) to isolate and test UI components. Configured with global decorators and easy to write storybook under each components.
