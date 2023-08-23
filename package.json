@@ -1,12 +1,12 @@
 {
   "name": "reactnative-enterprise",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index.js",
   "scripts": {
     "postinstall": "npx patch-package -y",
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios",
+    "ios": "expo start --ios -c",
     "web": "expo start --web",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",

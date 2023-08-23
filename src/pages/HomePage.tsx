@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-import StorybookUIRoot from '@storybook';
+import StorybookUIRoot from '@storybookui';
 
 import { env } from '@/env';
 

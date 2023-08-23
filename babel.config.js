@@ -9,7 +9,7 @@ module.exports = function (api) {
           root: ['./src'],
           alias: {
             '@': './src',
-            '@storybook': './.storybook/index.js',
+            '@storybookui': './.storybook/index.js',
           },
         },
       ],
