@@ -10,6 +10,10 @@ export const env = createEnv({
   isServer: true, // Bypass server-side checks
   client: {
     EXPO_PUBLIC_APP_NAME: z.string().min(1),
+    EXPO_PUBLIC_STORYBOOK_ENABLED: z.union([
+      z.literal('true'),
+      z.literal('false'),
+    ]),
   },
   /**
    * What object holds the environment variables at runtime.
