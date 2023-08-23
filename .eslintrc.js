@@ -8,6 +8,7 @@ module.exports = {
         groups: [['^expo', '^react'], ['^@?\\w'], ['@/(.*)'], ['^[./]']], // sort order for imports
       },
     ],
+    'import/order': ['off'],
     'import/newline-after-import': ['error', { count: 1 }], // new line after all the imports
     'padding-line-between-statements': [
       // blank line between statements
