@@ -15,7 +15,7 @@ export const Button = ({ onPress, text, type = 'default' }: ButtonProps) => {
   const color = type === 'default' ? 'white' : 'black';
   return (
     <TouchableOpacity
-      style={type === 'default' ? styles.default : styles.transparent}
+      style={styles[type]}
       onPress={onPress}
       activeOpacity={0.8}
     >

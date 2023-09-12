@@ -12,10 +12,11 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
     "analyze:bundle": "react-native-bundle-visualizer --only-mapped --entry-file ./index.js --bundle-output ./rn.bundle --expo",
-    "coupling-graph": "npx skott index.js",
+    "coupling-graph": "npx skott src/pages/HomePage.tsx",
     "prepare": "husky install",
     "storybook-generate": "sb-rn-get-stories",
-    "storybook-watch": "sb-rn-watcher"
+    "storybook-watch": "sb-rn-watcher",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@t3-oss/env-core": "^0.6.1",
@@ -27,6 +28,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@react-native-async-storage/async-storage": "1.18.2",
     "@react-native-community/datetimepicker": "7.2.0",
     "@react-native-community/slider": "4.4.2",
