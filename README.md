@@ -8,14 +8,13 @@ This project is highly inspired by [next-enterprise](https://github.com/Blazity/
 - [x] 🎯 Absolute imports - For better imports and code organization
 - [x] 📝 Conventional commits git hook - For enforcing conventional commits
 - [x] 🤖 Renovate BOT - For keeping dependencies up to date
-- [x] 🛠️ Extremely strict TypeScript - With ts-reset library for ultimate type safety
+- [x] 🛠️ Improved TypeScript - With ts-reset library for ultimate type safety
 - [x] 🩹 Patch-package - For patching dependencies
 - [x] 💻 T3 Env - For environment variables management
 - [x] 📊 Bundle analyzer plugin - For analyzing bundle size
 - [ ] 🧪 Jest and React Testing Library - For testing components and features
 - [x] 📕 Storybook - For isolating and testing UI components
 - [x] 📈 Components coupling and cohesion graph - For analyzing components relations
-- [ ] 🚀 GitHub Actions - For CI/CD automation
 - [x] 🤖🧠 Automated ChatGPT Code Reviews - For improving code quality and AI assistance code reviews
 - [ ] 🚢 Semantic Release - For automated versioning and CHANGELOG generation
 - [x] 🗄️ Auto Sort Imports - Automatic organizing of imports on file saves.
@@ -37,7 +36,7 @@ Preconfigured by default.
 
 ### Conventional Commits
 
-Configured with [git-conventioanl-commits](https://github.com/qoomon/git-conventional-commits) to automatically validate commit messages following the [conventional-commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+Configured with [commitlint](https://github.com/conventional-changelog/commitlint) to automatically validate commit messages following the [conventional-commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
 
 ### TS-Reset | Extremely Strict Typescript
 
