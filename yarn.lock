@@ -2220,10 +2220,10 @@
   dependencies:
     invariant "^2.2.4"
 
-"@react-native-community/slider@4.4.2":
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/@react-native-community/slider/-/slider-4.4.2.tgz#1fea0eb3ae31841fe87bd6c4fc67569066e9cf4b"
-  integrity sha512-D9bv+3Vd2gairAhnRPAghwccgEmoM7g562pm8i4qB3Esrms5mggF81G3UvCyc0w3jjtFHh8dpQkfEoKiP0NW/Q==
+"@react-native-community/slider@4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@react-native-community/slider/-/slider-4.5.4.tgz#bcc3d4e52848eeb5d97915050d8aff6f97e79f0f"
+  integrity sha512-TFhwnrp0LTFG90yat8mqEOBLLMJylpnchO5F0KusH8dI0VzViIVIXOzhnx0mUVqLvRwRPbqBB0tvhxd739UhmA==
 
 "@react-native/assets-registry@^0.72.0":
   version "0.72.0"
