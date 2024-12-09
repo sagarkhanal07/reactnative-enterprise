@@ -31,7 +31,7 @@
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
     "@react-native-async-storage/async-storage": "1.18.2",
-    "@react-native-community/datetimepicker": "7.2.0",
+    "@react-native-community/datetimepicker": "7.7.0",
     "@react-native-community/slider": "4.4.2",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-controls": "^6.5.16",
